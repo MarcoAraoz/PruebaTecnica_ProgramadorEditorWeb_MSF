@@ -2,13 +2,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 @layer base {
   body {
-    @apply font-secondary text-secondary bg-gradient-to-b from-[#F6FAFD] to-[#FFFFFF] bg-no-repeat;
+    @apply font-secondary text-secondary bg-gradient-to-b from-[#faedc8] to-[#FFFFFF] bg-no-repeat;
   }
   h1,
   h2,
@@ -31,7 +31,7 @@
     @apply bg-accent-secondary hover:bg-accent-secondary_hover;
   }
   .btn-quaternary {
-    @apply bg-white text-base font-bold text-primary drop-shadow-primary hover:bg-accent-primary_hover;
+    @apply bg-white text-base font-bold text-primary drop-shadow-md hover:bg-accent-primary_hover hover:text-white;
   }
   .h1 {
     @apply text-[40px] xl:text-[80px] font-bold leading-[1.1];

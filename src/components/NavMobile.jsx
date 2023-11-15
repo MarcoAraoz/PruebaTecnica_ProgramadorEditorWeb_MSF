@@ -1,6 +1,6 @@
 const NavMobile = () => {
   return (
-    <div>NavMobile</div>
+    <nav>NavMobileMenu</nav>
   )
 }
 

@@ -1,9 +1,13 @@
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     fontFamily: {
-      primary:'Open Sans',
-      secondary:'Lato'
+      // primary: ['Montserrat'],
+      primary:['Open Sans', '"sans-serif"'],
+      secondary:['Lato', '"sans-serif"']
     },
     container: {
       padding: {
@@ -22,7 +26,7 @@ export default {
         primary: '#212353',
         secondary: '#485D68',
         accent: {
-          primary: '##9C69E2',
+          primary: '#9C69E2',
           primary_hover: '#9059DB',
           secondary: '#F063B8',
           secondary_hover: '#E350A9',
