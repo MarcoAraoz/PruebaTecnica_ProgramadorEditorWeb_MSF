@@ -8,7 +8,7 @@
 
 @layer base {
   body {
-    @apply font-secondary text-secondary bg-gradient-to-b from-[#faedc8] to-[#FFFFFF] bg-no-repeat;
+    @apply font-secondary text-secondary bg-gradient-to-b from-[#c8d8fa] to-[#FFFFFF] bg-no-repeat;
   }
   h1,
   h2,

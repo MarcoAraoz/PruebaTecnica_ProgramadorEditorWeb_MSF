@@ -9,8 +9,9 @@ import { useState } from "react";
 
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
+
   return (
-    <header className="mb-12 lg:mb-0 z-20 relative px-4 lg:px-0">
+    <header className="mb-12 lg:mb-0 z-20 relative px-4 lg:px-0" data-aos='fade-down' data-aos-delay='1200' data-aos-duration='1000'>
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-x-[120px]">
@@ -34,7 +35,7 @@ const Header = () => {
 
           {/* re-direct form button */}
           <button className="btn btn-quaternary flex items-center gap-x-[20px] group">
-            Details{" "}
+            Register{" "}
             <BsArrowRight className="text-2xl text-accent-primary group-hover:text-white transition" />
           </button>
 

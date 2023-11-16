@@ -1,7 +1,17 @@
+import { navigationDataMenu } from "../data";
+
 const NavMobile = () => {
   return (
-    <nav>NavMobileMenu</nav>
-  )
-}
+    <ul className="flex flex-col px-6 py-8 gap-y-4">
+      {navigationDataMenu.map((item, index) => {
+        return (
+          <li key={index}>
+            <a className="text-white" href={item.href}>{item.name}</a>
+          </li>
+        );
+      })}
+    </ul>
+  );
+};
 
-export default NavMobile
+export default NavMobile;
