@@ -122,3 +122,23 @@ export const testimonialsData = [
     delay: '1200'
   },
 ]
+
+//Contact data
+
+export const ctaData = {
+  title: 'Contact Us from here',
+  subtitle: 'Get limited 1 week free try our features!',
+  btnText1: 'Learn more',
+  btnText2: 'Request Demo',
+}
+
+//Footer
+export const footerData = {
+  logo: 'asdff',
+  address: 'C. Tres Cruces 157, San Francisco, Coyoacán, 04320 Ciudad de México, CDMX',
+  email: 'info@event.com',
+  phone: '(+52)-56-32-65-61-92',
+  list1: [
+
+  ],
+}

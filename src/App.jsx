@@ -14,7 +14,7 @@ function App() {
   Aos.init({
     duration: 1800,
     offset: 0,
-    // easing: "ease-in-out",
+    easing: "ease-in-out",
     // delay: 50,
     // once: "true",
     // disable: false,
@@ -26,6 +26,8 @@ function App() {
         <About />
         <Features />
         <Testimonials />
+        <CtaSection />
+        <Footer />
       </div>
   );
 }
