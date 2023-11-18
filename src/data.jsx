@@ -1,5 +1,4 @@
 //group images from assets
-
 import HeroImg from "./assets/hero_01.jpg";
 import AboutImg from "./assets/about_01.jpg";
 import featureImg_01 from "./assets/features_01.jpg";
@@ -49,96 +48,162 @@ export const aboutData = {
 export const featuresData = {
   title: "What we offer you?",
   subtitle:
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam, alias possimus praesentium dolore hic iure quis quam optio deleniti fugiat id accusamus maiores!',
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam, alias possimus praesentium dolore hic iure quis quam optio deleniti fugiat id accusamus maiores!",
   list: [
     {
       image: featureImg_01,
       bgImage: bg_featureImg_03,
-      title: 'Payment',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam',
-      linkText: 'Learn more...',
-      delay: '400'
+      title: "Payment",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam",
+      linkText: "Learn more...",
+      delay: "400",
     },
     {
       image: featureImg_01,
       bgImage: bg_featureImg_01,
-      title: 'Payment',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam',
-      linkText: 'Learn more...',
-      delay: '400'
+      title: "Payment",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam",
+      linkText: "Learn more...",
+      delay: "400",
     },
     {
       image: featureImg_03,
       bgImage: bg_featureImg_02,
-      title: 'Payment',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam',
-      linkText: 'Learn more...',
-      delay: '400'
+      title: "Payment",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam",
+      linkText: "Learn more...",
+      delay: "400",
     },
     {
       image: featureImg_02,
       bgImage: bg_featureImg_02,
-      title: 'Payment',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam',
-      linkText: 'Learn more...',
-      delay: '400'
+      title: "Payment",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam",
+      linkText: "Learn more...",
+      delay: "400",
     },
-  ]
-}
+  ],
+};
 
 //Slider cards
-
 export const testimonialsData = [
   {
     image: test_01,
-    name: 'Serena',
-    web: '.com',
-    message: 
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis ab porro blanditiis optio, non asperiores laudantium accusantium accusamus nulla? Vitae labore similique laboriosam non nostrum magnam a laborum harum?',
-    delay: '300'
+    name: "Serena",
+    web: ".com",
+    message:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis ab porro blanditiis optio, non asperiores laudantium accusantium accusamus nulla? Vitae labore similique laboriosam non nostrum magnam a laborum harum?",
+    delay: "300",
   },
   {
     image: test_01,
-    name: 'Serena',
-    web: '.com',
-    message: 
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis ab porro blanditiis optio, non asperiores laudantium accusantium accusamus nulla? Vitae labore similique laboriosam non nostrum magnam a laborum harum?',
-    delay: '600'
+    name: "Serena",
+    web: ".com",
+    message:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis ab porro blanditiis optio, non asperiores laudantium accusantium accusamus nulla? Vitae labore similique laboriosam non nostrum magnam a laborum harum?",
+    delay: "600",
   },
   {
     image: test_01,
-    name: 'Serena',
-    web: '.com',
-    message: 
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis ab porro blanditiis optio, non asperiores laudantium accusantium accusamus nulla? Vitae labore similique laboriosam non nostrum magnam a laborum harum?',
-    delay: '900'
+    name: "Serena",
+    web: ".com",
+    message:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis ab porro blanditiis optio, non asperiores laudantium accusantium accusamus nulla? Vitae labore similique laboriosam non nostrum magnam a laborum harum?",
+    delay: "900",
   },
   {
     image: test_01,
-    name: 'Serena',
-    web: '.com',
-    message: 
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis ab porro blanditiis optio, non asperiores laudantium accusantium accusamus nulla? Vitae labore similique laboriosam non nostrum magnam a laborum harum?',
-    delay: '1200'
+    name: "Serena",
+    web: ".com",
+    message:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis ab porro blanditiis optio, non asperiores laudantium accusantium accusamus nulla? Vitae labore similique laboriosam non nostrum magnam a laborum harum?",
+    delay: "1200",
   },
-]
+];
 
 //Contact data
-
 export const ctaData = {
-  title: 'Contact Us from here',
-  subtitle: 'Get limited 1 week free try our features!',
-  btnText1: 'Learn more',
-  btnText2: 'Request Demo',
-}
+  title: "Contact Us from here",
+  subtitle: "Get limited 1 week free try our features!",
+  btnText1: "Learn more",
+  btnText2: "Request Demo",
+};
 
 //Footer
-export const footerData = {
-  logo: 'asdff',
-  address: 'C. Tres Cruces 157, San Francisco, Coyoacán, 04320 Ciudad de México, CDMX',
-  email: 'info@event.com',
-  phone: '(+52)-56-32-65-61-92',
-  list1: [
+import logo from "./assets/react.svg";
 
+import { FaYoutube, FaInstagram, FaGithub } from "react-icons/fa";
+
+export const footerData = {
+  logo: logo,
+  address:
+    "C. Tres Cruces 157, San Francisco, Coyoacán, 04320 Ciudad de México, CDMX",
+  email: "info@event.com",
+  phone: "(+52)-56-32-65-61-92",
+  list1: [
+    {
+      name: "Profile",
+      href: "#",
+    },
+    {
+      name: "Features",
+      href: "#",
+    },
+    {
+      name: "Careers",
+      href: "#",
+    },
+    {
+      name: "DW News",
+      href: "#",
+    },
   ],
-}
+  list2: [
+    {
+      name: 'Support',
+      href: '#'
+    },
+    {
+      name: 'Sign Up',
+      href: '#'
+    },
+    {
+      name: 'Guide',
+      href: '#'
+    },
+    {
+      name: 'Reports',
+      href: '#'
+    },
+    {
+      name: 'Q&A',
+      href: '#'
+    }
+  ],
+  socialList: [
+    {
+      icon: <FaYoutube />,
+      href: "#"
+    },
+    {
+      icon: <FaInstagram />,
+      href: "#"
+    },
+    {
+      icon: <FaGithub />,
+      href: "#"
+    }
+  ]
+};
+
+//Copyright
+import { BsChatDotsFill } from "react-icons/bs";
+
+export const copyrightData = {
+  text: "@EventName, 2023. All rights reserved. Company Registration Numbrer: 26435629",
+  Icon: <BsChatDotsFill />,
+};
