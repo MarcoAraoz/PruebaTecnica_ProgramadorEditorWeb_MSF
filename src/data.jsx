@@ -8,6 +8,27 @@ import bg_featureImg_01 from "./assets/features_bg_01.jpg";
 import bg_featureImg_02 from "./assets/features_bg_02.jpg";
 import bg_featureImg_03 from "./assets/bg_featureImg_03.jpg";
 import test_01 from "./assets/test_01.jpg";
+//logo companies
+import logo_company_00 from "./assets/capgemini.png";
+import logo_company_01 from "./assets/chevez.png";
+import logo_company_02 from "./assets/logo_Afterbanks.png";
+import logo_company_03 from "./assets/logo_backbase.png";
+import logo_company_06 from "./assets/logo_circulo (2).png";
+import logo_company_07 from "./assets/logo_Conekta.png";
+import logo_company_08 from "./assets/logo_docusign.png";
+import logo_company_09 from "./assets/logo_freshworks.png";
+import logo_company_10 from "./assets/logo_mercado.png";
+import logo_company_11 from "./assets/logo_Nubarium.png";
+import logo_company_12 from "./assets/logo_rocketcode.png";
+import logo_company_13 from "./assets/logo_SAP.png";
+import logo_company_14 from "./assets/logo_startup.png";
+import logo_company_15 from "./assets/logo_strike.png";
+import logo_company_16 from "./assets/logo_Unnax.png";
+import logo_company_17 from "./assets/logo_Veridas.png";
+import logo_company_18 from "./assets/logo_zendesk.png";
+import logo_company_19 from "./assets/logoMicrosoft.png";
+import logo_company_20 from "./assets/multiplica.png";
+import logo_company_21 from "./assets/sensedia.png";
 
 // nav Section Menu
 export const navigationDataMenu = [
@@ -31,49 +52,42 @@ export const navigationDataMenu = [
 
 // HeroSection
 export const heroData = {
-  title: "Event Landing Page",
-  subtitle: "Iniciative to welcome aboard in this event",
+  title: "OpenFinance 2023",
+  subtitle: "Este 22 y 23 de Noviembre cambia el futuro del mundo financiero, nuestros asistentes interactúan con personas que están en la toma de decisiones de las empresas más reconocidas a nivel mundial.",
   btnText: "Get Started",
   image: HeroImg,
 };
 
-// AboutSection
-export const aboutData = {
-  title: "Find more about Us",
-  subtitle: "We are an event",
-  image: AboutImg,
-};
-
 // FeaturesSection
 export const featuresData = {
-  title: "What we offer you?",
+  title: "El evento anual más esperado de la industria FINTECH.",
   subtitle:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam, alias possimus praesentium dolore hic iure quis quam optio deleniti fugiat id accusamus maiores!",
+    "Año con año nuestro evento cambia el futuro del mundo financiero, nuestros asistentes interactúan con personas que están en la toma de decisiones de las empresas más reconocidas a nivel mundial.",
   list: [
     {
       image: featureImg_01,
       bgImage: bg_featureImg_03,
-      title: "Payment",
+      title: "Premia las mentes más brillantes",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam",
+        "Un lugar donde las mejores 15 fintechs registradas pueden presentar su proyecto a los fondos más importantes del país y Silicon Valley, todo ello en un modelo 'PITCH ELEVATOR'.",
       linkText: "Learn more...",
       delay: "400",
     },
     {
       image: featureImg_01,
       bgImage: bg_featureImg_01,
-      title: "Payment",
+      title: "Reconoce la innovación del sector Fintech",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam",
+        "Los premios GOFA AWARDS buscan identificar, destacar y honrar a lideres de la industria Fintech en México y Latinoamérica para que el ecosistema sea aún más rápido, eficiente e inclusivo.",
       linkText: "Learn more...",
       delay: "400",
     },
     {
       image: featureImg_03,
       bgImage: bg_featureImg_02,
-      title: "Payment",
+      title: "¿Por qué asistir?",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam",
+        "Podrás hacer negocios y aprovechar las interacciones en el evento más esperado.",
       linkText: "Learn more...",
       delay: "400",
     },
@@ -82,11 +96,18 @@ export const featuresData = {
       bgImage: bg_featureImg_02,
       title: "Payment",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam odio cupiditate ipsa suscipit libero nam",
+        "Acceso a las ponencias más disruptivas de la industria. Crearás conexiones que cambien el rumbo de tu negocio.",
       linkText: "Learn more...",
       delay: "400",
     },
   ],
+};
+
+// AboutSection
+export const aboutData = {
+  title: "Find more about Us",
+  subtitle: "We are an event",
+  image: AboutImg,
 };
 
 //Slider cards
@@ -164,40 +185,40 @@ export const footerData = {
   ],
   list2: [
     {
-      name: 'Support',
-      href: '#'
+      name: "Support",
+      href: "#",
     },
     {
-      name: 'Sign Up',
-      href: '#'
+      name: "Sign Up",
+      href: "#",
     },
     {
-      name: 'Guide',
-      href: '#'
+      name: "Guide",
+      href: "#",
     },
     {
-      name: 'Reports',
-      href: '#'
+      name: "Reports",
+      href: "#",
     },
     {
-      name: 'Q&A',
-      href: '#'
-    }
+      name: "Q&A",
+      href: "#",
+    },
   ],
   socialList: [
     {
       icon: <FaYoutube />,
-      href: "#"
+      href: "#",
     },
     {
       icon: <FaInstagram />,
-      href: "#"
+      href: "#",
     },
     {
       icon: <FaGithub />,
-      href: "#"
-    }
-  ]
+      href: "#",
+    },
+  ],
 };
 
 //Copyright
@@ -207,3 +228,27 @@ export const copyrightData = {
   text: "@EventName, 2023. All rights reserved. Company Registration Numbrer: 26435629",
   Icon: <BsChatDotsFill />,
 };
+
+//sponsor images
+export const sponsorImages = [
+  logo_company_01,
+  logo_company_00,
+  logo_company_02,
+  logo_company_03,
+  logo_company_06,
+  logo_company_07,
+  logo_company_08,
+  logo_company_09,
+  logo_company_10,
+  logo_company_11,
+  logo_company_12,
+  logo_company_13,
+  logo_company_14,
+  logo_company_15,
+  logo_company_16,
+  logo_company_17,
+  logo_company_18,
+  logo_company_19,
+  logo_company_20,
+  logo_company_21,
+];

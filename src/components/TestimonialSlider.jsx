@@ -2,11 +2,9 @@ import { testimonialsData } from "../data";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
-
 // import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../slider.css";
-
 import { Pagination } from "swiper/modules";
 
 const TestimonialSlider = () => {
@@ -25,7 +23,7 @@ const TestimonialSlider = () => {
         return (
           <SwiperSlide
             key={index}
-            className="bg-white rounded-xl border max-h-[430px] max-w-[445px] xl:max-w-[545px] xl:max-h-[330px] pt-[30px] px-[35px] xl:px-[70px] pb-[60px] flex items-start gap-x-[30px] shadow-xl"
+            className="bg-white rounded-xl border max-h-[430px] max-w-[345px] xl:max-w-[545px] xl:max-h-[330px] pt-[30px] px-[35px] xl:px-[70px] pb-[60px] flex items-start gap-x-[30px] shadow-xl"
           >
             <div className="flex flex-col items-center xl:flex-row justify-left xl:justify-center">
               {/* avatar images */}

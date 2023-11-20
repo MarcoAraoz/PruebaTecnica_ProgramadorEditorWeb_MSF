@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Features = () => {
   const { title, subtitle, list } = featuresData;
   return (
-    <section className="my-[70px] xl:my-[150px]">
+    <section className="my-[70px] xl:mt-[120px] xl:mb-[50px]">
       <div className="container mx-auto">
         {/* texts */}
         <div className="text-center">
